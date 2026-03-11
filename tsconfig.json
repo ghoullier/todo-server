@@ -1,12 +1,10 @@
 {
-  "compilerOptions": {
-    "esModuleInterop": true,
-    "outDir": "./dist",
-    "lib": ["ESNext"],
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "target": "ESNext",
-    "typeRoots": ["./node_modules/@types"]
-  },
-  "file": [".src/todolist.ts"]
+	"compilerOptions": {
+		"lib": ["ESNext"],
+		"noEmit": true,
+		"module": "preserve",
+		"allowImportingTsExtensions": true,
+		"verbatimModuleSyntax": true
+	},
+	"files": ["./src/todolist.ts"]
 }
